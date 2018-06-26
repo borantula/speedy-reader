@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Lora:400,700&subset=latin-ext');
+
+body {
+    font-family: 'Lato',Arial,serif;
+    color:#333;
+    background: #ddd;
+}
+
+.App {
+    width: 100%;
+}
+
+.display-screen {
+    font-family: 'Lora',Georgia,"Times New Roman", serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin: 100px auto;
+    line-height: 1.5;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    min-height: 1.5em;
+    padding: 1em;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(131,58,180,0.1) 50%, rgba(131,58,180,1) 100%);
+}
+
+.hidden {
+    display: none !important;
+}
+
+
+.button-container {
+    text-align: center;
+    margin: 40px;
+}
+
+.button-container button {
+    margin: 0 20px;
+    font-size: 18px;
+    padding: 5px 20px;
+}
+
+.number-of-pages {
+    text-align: center;
+}
+
+
+.app-inputs {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 0;
+}
+.app-inputs__group {
+    margin: 10px 0;
+}
